@@ -1,0 +1,185 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#bs-example-navbar-collapsed-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="#">App Carlos Arguello</a>
+    </div>
+    
+    <!-- Menus Opciones -->
+    
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li><a id="eliminar" href="#">Eliminar</a></li>
+    </ul>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li><a id="listar" href="#">Listar</a></li>
+    </ul>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li><a id="modificar" href="#">Modificar</a></li>
+    </ul>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li><a id="registrar" href="#">Registrar</a></li>
+    </ul>
+    
+    </div>
+  </div>
+</nav>
+  
+
+<!--Enlazadores a menu -->  
+
+
+<div id='registerBox'>
+  <h1>Registrar Usuarios</h1>
+  
+  <table>
+    <thead>
+      <tr>
+        
+        <label>Username </label>
+        <br></br>
+        
+        <input id='usernameR' type="text" placeholder="username">
+        <br></br>
+        
+      
+        <label>Password </label>
+        <br></br>
+        <input id='passwordR' type="text" placeholder="password">
+        <br></br>
+        
+        <input id='registerR' type="submit" value="Register" {action: "create"}  />
+       
+      </tr>
+    </thead>
+    
+  </table>
+  
+</div>
+
+
+<div id='modifyBox'>
+  <h1>Modificar Usuarios</h1>
+  
+  <table>
+    <thead>
+      <tr>
+        
+        <label>Username Viejo </label>
+        <br></br>
+        
+        <input id='usernameMV' type="text" placeholder="username viejo">
+        <br></br>
+        
+      
+        <label>Password viejo</label>
+        <br></br>
+        <input id='passwordMV' type="text" placeholder="password viejo">
+        <br></br>
+        
+        
+        <label>Username Nuevo </label>
+        <br></br>
+        
+        <input id='usernameMN' type="text" placeholder="username nuevo">
+        <br></br>
+        
+      
+        <label>Password viejo</label>
+        <br></br>
+        <input id='passwordMN' type="text" placeholder="password nuevo">
+        <br></br>
+        
+        <input id='modififyM' type="submit" value="Modify"  />
+        
+       
+      </tr>
+    </thead>
+    
+  </table>
+  
+</div>
+
+
+<div id='listBox'>
+    <h1>Listado de usuarios</h1>
+     
+    <table>
+    <thead>
+      <tr>
+        
+        <br></br>
+        
+        <input id='listL' type="submit" value="To List"  />
+        
+       
+      </tr>
+    </thead>
+    
+  </table> 
+
+</div>
+
+
+
+<div id='deleteBox'>
+  <h1>Borrado de usuarios</h1>
+  
+  <table>
+    <thead>
+      <tr>
+        
+        <label>Username </label>
+        <br></br>
+        
+        <input id='usernameD' type="text" placeholder="username">
+        <br></br>
+        
+      
+        <label>Password </label>
+        <br></br>
+        <input id='passwordD' type="text" placeholder="password">
+        <br></br>
+        
+        <input id='deleleteD' type="submit" value="Delete"  />
+        
+       
+      </tr>
+    </thead>
+    
+  </table> 
+  
+</div>
+
+
+
+
+
+<!-- Modal -->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+    </div class="modal-body">
+    ....
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
